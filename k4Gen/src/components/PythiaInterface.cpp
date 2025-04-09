@@ -173,8 +173,7 @@ StatusCode PythiaInterface::getNextEvent(HepMC3::GenEvent& theEvent) {
   int nAborts = 0;
   while (!m_pythiaSignal->next()) {
     if (++nAborts > m_maxAborts) {
-      IIncidentSvc* incidentSvc;
-      incidentSvc = service<IIncidentSvc>("IncidentSvc", false);
+      SmartIF<IIncidentSvc> incidentSvc = service<IIncidentSvc>("IncidentSvc", false);
       incidentSvc->fireIncident(Incident(name(), IncidentType::AbortEvent));
       error() << "Event generation aborted prematurely, owing to error!" << endmsg;
       return StatusCode::FAILURE;
