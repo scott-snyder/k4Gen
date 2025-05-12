@@ -1,15 +1,19 @@
 {
   "version": 5,
-  "prev": "d78c6e7cf612f64f8d7f94e9931b55ed01970ffc",
-  "head": "a47abb63c894f704f48a325fe39cd0c57faa3798",
+  "prev": "35d576c8f7cdfa6f84008247e88f64c18f4e231d",
+  "head": "01eaac4f62487598d0ff450ec0eb4559201fdbfd",
   "applied": [
-    "service"
+    "service",
+    "cxx23"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "service": {
       "oid": "a47abb63c894f704f48a325fe39cd0c57faa3798"
+    },
+    "cxx23": {
+      "oid": "01eaac4f62487598d0ff450ec0eb4559201fdbfd"
     }
   }
 }
