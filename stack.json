@@ -1,13 +1,17 @@
 {
   "version": 5,
-  "prev": "32393db082dce29e160e8c4547c2b1fbd025b276",
-  "head": "6821c8ba9f8b9f9a34c940edbc3d6151b05381ce",
+  "prev": "41f73dd7edfb75c9b8ee5b5037dc1348faf01241",
+  "head": "a1649cd99d63063fb749171e28364e4265fe030e",
   "applied": [
-    "service"
+    "service",
+    "dhns"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "dhns": {
+      "oid": "a1649cd99d63063fb749171e28364e4265fe030e"
+    },
     "service": {
       "oid": "6821c8ba9f8b9f9a34c940edbc3d6151b05381ce"
     }
