@@ -5,6 +5,7 @@
 #include "GaudiKernel/IIncidentSvc.h"
 #include "GaudiKernel/Incident.h"
 #include "GaudiKernel/PhysicalConstants.h"
+#include "k4FWCore/GaudiChecks.h"
 
 #include "edm4hep/MCParticleCollection.h"
 
@@ -20,10 +21,7 @@ HepEVTReader::HepEVTReader(const std::string& name, ISvcLocator* svcLoc)
 }
 
 StatusCode HepEVTReader::initialize() {
-  StatusCode sc = Gaudi::Algorithm::initialize();
-  if (sc.isFailure()) {
-    return sc;
-  }
+  K4_GAUDI_CHECK( Gaudi::Algorithm::initialize() );
 
   m_input.open(m_filename.c_str(), std::ifstream::in);
 
