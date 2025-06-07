@@ -4,6 +4,7 @@
 #include "GaudiKernel/IEventProcessor.h"
 #include "GaudiKernel/IIncidentSvc.h"
 #include "GaudiKernel/Incident.h"
+#include "k4FWCore/GaudiChecks.h"
 
 #include "edm4hep/MCParticleCollection.h"
 
@@ -24,10 +25,7 @@ MDIReader::MDIReader(const std::string& name, ISvcLocator* svcLoc) : Gaudi::Algo
 }
 
 StatusCode MDIReader::initialize() {
-  StatusCode sc = Gaudi::Algorithm::initialize();
-  if (sc.isFailure()) {
-    return sc;
-  }
+  K4_GAUDI_CHECK( Gaudi::Algorithm::initialize() );
 
   debug() << "Reading file: " << m_filename << endmsg;
 
