@@ -1,0 +1,8 @@
+Bottom: 5495597283e84aeddff5966e97d15fec78c226e8
+Top:    5495597283e84aeddff5966e97d15fec78c226e8
+Author: sss <sss@karma>
+Date:   2025-06-07 10:20:27 -0400
+
+Fix clang warnings.
+
+Unused variables / private data members.
