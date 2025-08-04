@@ -1,5 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.15)
 
+cmake_policy(SET CMP0144 NEW)
+
 #---------------------------------------------------------------
 project(k4Gen LANGUAGES CXX)
 
