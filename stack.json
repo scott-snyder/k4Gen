@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "4db0cb488f5f7d7606c05915a1f86afbbac0ebb9",
-  "head": "0b4b8fe04bcbf994630b1b17cc09ba7f71177787",
+  "prev": "05d8501f79708be0d425213f695e76b459826734",
+  "head": "473a5ff31fd3bfc4c5f0f259d2c90bce13d58e08",
   "applied": [
     "service",
     "dhns",
     "clang",
-    "cmakewarn"
+    "cmakewarn",
+    "danglewarn"
   ],
   "unapplied": [],
   "hidden": [],
@@ -16,6 +17,9 @@
     },
     "cmakewarn": {
       "oid": "0b4b8fe04bcbf994630b1b17cc09ba7f71177787"
+    },
+    "danglewarn": {
+      "oid": "473a5ff31fd3bfc4c5f0f259d2c90bce13d58e08"
     },
     "dhns": {
       "oid": "29734ace05d74a65889b8be8ffbcd8071ea7fc38"
