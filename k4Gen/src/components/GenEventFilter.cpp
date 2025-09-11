@@ -1,3 +1,5 @@
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 #include "GenEventFilter.h"
 
 #include "k4FWCore/MetadataUtils.h"
