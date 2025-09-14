@@ -20,7 +20,7 @@ HepEVTReader::HepEVTReader(const std::string& name, ISvcLocator* svcLoc)
 }
 
 StatusCode HepEVTReader::initialize() {
-  K4_CHECK( Gaudi::Algorithm::initialize() );
+  K4_GAUDI_CHECK( Gaudi::Algorithm::initialize() );
 
   m_input.open(m_filename.c_str(), std::ifstream::in);
 
