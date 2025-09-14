@@ -1,36 +1,32 @@
 {
   "version": 5,
-  "prev": "8b28ffcee6534b3fe36a0f36dadda8d8dfae778f",
-  "head": "dfc93a046a36b6518563b44618cd57c85ef04466",
+  "prev": "9d323c530fc5ae5057a82cc47c83a38ac7f56d97",
+  "head": "0dd21a79c1d7a76570b7791ba60614ce57a5fe4d",
   "applied": [
     "service",
     "dhns",
     "clang",
     "cmakewarn",
     "danglewarn",
-    "depr",
-    "refresh-temp"
+    "depr"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
-      "oid": "ff3e89995aaf22f0f39451b8c9abb3ce5c24ea0a"
+      "oid": "880e452e814b0bb11fcf3a55f311ab7add67fab0"
     },
     "cmakewarn": {
-      "oid": "f9c024486e5e9da8798e406bb39ec7510bdc6435"
+      "oid": "c912bb9cfed90a89193165f781056a40b96f126e"
     },
     "danglewarn": {
-      "oid": "a226e2b66203b08a4b9c72bf58c54548de422cf7"
+      "oid": "b7b1108d2bfce349801ea35b7af34fe34d06dd2f"
     },
     "depr": {
-      "oid": "f8794366f476ce7b5900bd60c92bf2bb7b808ed6"
+      "oid": "0dd21a79c1d7a76570b7791ba60614ce57a5fe4d"
     },
     "dhns": {
       "oid": "29734ace05d74a65889b8be8ffbcd8071ea7fc38"
-    },
-    "refresh-temp": {
-      "oid": "dfc93a046a36b6518563b44618cd57c85ef04466"
     },
     "service": {
       "oid": "6821c8ba9f8b9f9a34c940edbc3d6151b05381ce"
