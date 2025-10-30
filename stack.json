@@ -1,15 +1,14 @@
 {
   "version": 5,
-  "prev": "229282fb8d207158f2f041bf79a1123f3e1df32b",
-  "head": "dd450f2fdc7578a3de72d22ad6a70043e3ef8f26",
-  "applied": [
+  "prev": "0dceb2f27d9175dc6826896d7898d735c160202b",
+  "head": "156a87aac6be6ec183d6a5043296cfc9adc4052c",
+  "applied": [],
+  "unapplied": [
     "service",
     "dhns",
     "cmakewarn",
     "danglewarn",
-    "depr"
-  ],
-  "unapplied": [
+    "depr",
     "clang"
   ],
   "hidden": [],
