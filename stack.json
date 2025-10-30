@@ -1,9 +1,8 @@
 {
   "version": 5,
-  "prev": "4c7273a5c1a4c810681bd12d95bd594fc79d8254",
-  "head": "bf15c67e4a296c48207524af71b69cf9bc780aed",
-  "applied": [],
-  "unapplied": [
+  "prev": "a146047069dbfbece0585d28b0b92bed54432332",
+  "head": "fa111ffd1d4bddaffbbe55a09aca80829017c750",
+  "applied": [
     "service",
     "dhns",
     "cmakewarn",
@@ -11,25 +10,26 @@
     "depr",
     "clang"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
-      "oid": "880e452e814b0bb11fcf3a55f311ab7add67fab0"
+      "oid": "fa111ffd1d4bddaffbbe55a09aca80829017c750"
     },
     "cmakewarn": {
-      "oid": "9729de951dfb7cc8d787ec58f6a86895babd81c0"
+      "oid": "1f75c0cfec29dfb2ced4a0e9596b86739e6e6e80"
     },
     "danglewarn": {
-      "oid": "9877f24567d159340862b7b86b889a11f253dadd"
+      "oid": "28c0304e3cb97913de5ae551b880525ee907b1d6"
     },
     "depr": {
-      "oid": "dd450f2fdc7578a3de72d22ad6a70043e3ef8f26"
+      "oid": "4d176f04d7633be1c795ee621ba01d109f227c75"
     },
     "dhns": {
-      "oid": "29734ace05d74a65889b8be8ffbcd8071ea7fc38"
+      "oid": "fcf3e8e674616f3c32a60aeb0bec72a29e76788c"
     },
     "service": {
-      "oid": "6821c8ba9f8b9f9a34c940edbc3d6151b05381ce"
+      "oid": "c352792616ec1a050f843492d94324fe1ef37d6a"
     }
   }
 }
