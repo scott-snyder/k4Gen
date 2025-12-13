@@ -1,15 +1,14 @@
 {
   "version": 5,
-  "prev": "9d4e42c9cf7cd34c39f181fab72a50be55e0a9e6",
-  "head": "3f15785b06f665970c33b8baacf48613d5af5475",
+  "prev": "0449e41ce51219c0e1c61cc3546202437cc98f74",
+  "head": "cfdade1b796b180052d0455bd6db08dfd14a40d2",
   "applied": [
     "service",
     "cmakewarn",
     "danglewarn",
     "depr",
     "clang",
-    "cxx26",
-    "refresh-temp"
+    "cxx26"
   ],
   "unapplied": [],
   "hidden": [],
@@ -21,16 +20,13 @@
       "oid": "ee67bec4fa9b3467ab26d49875a960c1c7b59c87"
     },
     "cxx26": {
-      "oid": "3de4aef5d0ad1e2b2915642b755ef3c43e3050d8"
+      "oid": "cfdade1b796b180052d0455bd6db08dfd14a40d2"
     },
     "danglewarn": {
       "oid": "5cddb474460ee0c3e47f50cdeee6ecf7629e08af"
     },
     "depr": {
       "oid": "b222e559e7b311bdabb4d2c1ed52345c0ca704f5"
-    },
-    "refresh-temp": {
-      "oid": "3f15785b06f665970c33b8baacf48613d5af5475"
     },
     "service": {
       "oid": "5d25e7d874e91885457365cb4ae7faa2ea383731"
