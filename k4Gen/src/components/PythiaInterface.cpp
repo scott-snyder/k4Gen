@@ -11,7 +11,7 @@
 // Include UserHooks for randomly choosing between integrated and
 // non-integrated treatment for unitarised merging.
 #include "HepMC3/GenEvent.h"
-#include "Pythia8Plugins/EvtGen.h"
+//#include "Pythia8Plugins/EvtGen.h"
 #include "Pythia8Plugins/aMCatNLOHooks.h"
 #include "edm4hep/Constants.h"
 #include "k4FWCore/MetadataUtils.h"
@@ -144,6 +144,8 @@ StatusCode PythiaInterface::initialize() {
 
   // Set up evtGen
   if (m_doEvtGenDecays) {
+    std::abort();
+#if 0
     m_evtgen = new Pythia8::EvtGenDecays(
         m_pythiaSignal.get(),             // the pythia instance
         m_EvtGenDecayFile.value(),        // the file name of the evtgen decay file
@@ -163,6 +165,7 @@ StatusCode PythiaInterface::initialize() {
     for (auto _pdgid : m_evtGenExcludes) {
       m_evtgen->exclude(_pdgid);
     }
+#endif
   }
 
   m_pythiaSignal->init();
@@ -187,7 +190,8 @@ StatusCode PythiaInterface::getNextEvent(HepMC3::GenEvent& theEvent) {
   }
 
   if (m_doEvtGenDecays) {
-    m_evtgen->decay();
+    //m_evtgen->decay();
+    std::abort();
   }
   if (m_doMePsMatching || m_doMePsMerging) {
     auto mePsMatchingVars = m_handleMePsMatchingVars.createAndPut();
@@ -346,7 +350,7 @@ StatusCode PythiaInterface::finalize() {
 
   m_pythiaSignal.reset();
   if (nullptr != m_evtgen) {
-    delete m_evtgen;
+    //delete m_evtgen;
   }
   return AlgTool::finalize();
 }
