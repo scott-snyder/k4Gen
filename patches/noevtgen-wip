@@ -1,0 +1,8 @@
+Bottom: b0ea42335b598e3b12b37758ccd9420628f3e5c9
+Top:    b0ea42335b598e3b12b37758ccd9420628f3e5c9
+Author: sss <sss@karma>
+Date:   2026-02-19 16:31:17 -0500
+
+Disable evtgen.
+
+Checked-out versions of evgen and pythia8 are incompatible.
