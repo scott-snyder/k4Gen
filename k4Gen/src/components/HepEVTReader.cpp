@@ -4,7 +4,7 @@
 #include "GaudiKernel/IEventProcessor.h"
 #include "GaudiKernel/IIncidentSvc.h"
 #include "GaudiKernel/Incident.h"
-#include "k4FWCore/k4_check.h"
+#include "k4FWCore/GaudiChecks.h"
 
 #include "edm4hep/MCParticleCollection.h"
 
