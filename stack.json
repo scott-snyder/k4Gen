@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "baeb4c73d22dae94cc057b6b959aa2243ef49828",
-  "head": "ad78c9380a22100be0d9def70e3fdcc289a28628",
+  "prev": "b6c2d8b4c4a595a8a374a4df638cd8b291c6c3af",
+  "head": "85d47e49447a08a5ec592badef22526aac44342b",
   "applied": [
     "service",
     "cmakewarn",
@@ -9,7 +9,8 @@
     "depr",
     "clang",
     "cxx26",
-    "noevtgen-wip"
+    "noevtgen-wip",
+    "refresh-temp"
   ],
   "unapplied": [],
   "hidden": [],
@@ -31,6 +32,9 @@
     },
     "noevtgen-wip": {
       "oid": "ad78c9380a22100be0d9def70e3fdcc289a28628"
+    },
+    "refresh-temp": {
+      "oid": "85d47e49447a08a5ec592badef22526aac44342b"
     },
     "service": {
       "oid": "5d25e7d874e91885457365cb4ae7faa2ea383731"
