@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "a170b6d81594435f17264333ded546576ba87679",
-  "head": "209115d8ea401cf58edb061f2bfe77c6685b7e77",
+  "prev": "d11a86410061b794f17124697436cdc6b788ef54",
+  "head": "86e8230048bc5c6195b36c566cbe9ce162ebffd9",
   "applied": [
     "service",
     "cmakewarn",
     "danglewarn",
     "depr",
-    "clang"
+    "clang",
+    "refresh-temp"
   ],
   "unapplied": [
     "cxx26",
@@ -32,6 +33,9 @@
     },
     "noevtgen-wip": {
       "oid": "bad1200544867c5e175824dde4a10b29e4aa0ae7"
+    },
+    "refresh-temp": {
+      "oid": "86e8230048bc5c6195b36c566cbe9ce162ebffd9"
     },
     "service": {
       "oid": "b949ef96ae9d464df711031833f1856d0954abd1"
