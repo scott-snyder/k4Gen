@@ -1,18 +1,17 @@
 {
   "version": 5,
-  "prev": "d5312fd7456c0c228c6f94743656cd2d692d6932",
-  "head": "36a95a5ff6a108f0883497f6c7f6f2a8962bc42c",
+  "prev": "5d1a852802578ddc6450a9e749f952944768344e",
+  "head": "d33b27519682c52a976983f26c1a442b11900e81",
   "applied": [
     "service",
     "cmakewarn",
     "danglewarn",
     "depr",
-    "clang"
-  ],
-  "unapplied": [
+    "clang",
     "cxx26",
     "noevtgen-wip"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
@@ -22,7 +21,7 @@
       "oid": "1570cfaa7d0048de980f8f4da7581b5cc7153075"
     },
     "cxx26": {
-      "oid": "0f4ab07a38aebd4319c2dd90f8d9d10ad299b36d"
+      "oid": "df8d77d51ca6c092dc0df9398b69a4d8deb15b9e"
     },
     "danglewarn": {
       "oid": "d7176fa98dc900abbdacfe9c7ffbb262d6cf06b3"
@@ -31,7 +30,7 @@
       "oid": "8733199238f8e22a17245fe695d995f309785325"
     },
     "noevtgen-wip": {
-      "oid": "bad1200544867c5e175824dde4a10b29e4aa0ae7"
+      "oid": "d33b27519682c52a976983f26c1a442b11900e81"
     },
     "service": {
       "oid": "b949ef96ae9d464df711031833f1856d0954abd1"
