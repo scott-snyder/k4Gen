@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "48052b806039bcdf75a79e9a944577055c4afe7c",
-  "head": "c87e05b2207008ffb95f66535ca513116afce00f",
-  "applied": [],
-  "unapplied": [
+  "prev": "5b9bb8c65b3b48eb90567ccafa755ef585ef3f55",
+  "head": "d7176fa98dc900abbdacfe9c7ffbb262d6cf06b3",
+  "applied": [
     "service",
     "cmakewarn",
-    "danglewarn",
+    "danglewarn"
+  ],
+  "unapplied": [
     "depr",
     "clang",
     "cxx26",
@@ -18,13 +19,13 @@
       "oid": "002ed806c6e00f752073b824b0a3351a0d0175e9"
     },
     "cmakewarn": {
-      "oid": "ee67bec4fa9b3467ab26d49875a960c1c7b59c87"
+      "oid": "1570cfaa7d0048de980f8f4da7581b5cc7153075"
     },
     "cxx26": {
       "oid": "0f4ab07a38aebd4319c2dd90f8d9d10ad299b36d"
     },
     "danglewarn": {
-      "oid": "5cddb474460ee0c3e47f50cdeee6ecf7629e08af"
+      "oid": "d7176fa98dc900abbdacfe9c7ffbb262d6cf06b3"
     },
     "depr": {
       "oid": "b222e559e7b311bdabb4d2c1ed52345c0ca704f5"
@@ -33,7 +34,7 @@
       "oid": "bad1200544867c5e175824dde4a10b29e4aa0ae7"
     },
     "service": {
-      "oid": "5d25e7d874e91885457365cb4ae7faa2ea383731"
+      "oid": "b949ef96ae9d464df711031833f1856d0954abd1"
     }
   }
 }
