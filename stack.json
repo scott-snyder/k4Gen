@@ -1,8 +1,9 @@
 {
   "version": 5,
-  "prev": "e727b7132a4c34e302581c0d5e52412eabb4009e",
-  "head": "bad1200544867c5e175824dde4a10b29e4aa0ae7",
-  "applied": [
+  "prev": "d5cc079724b8bbf0a2d0301764f2b01b515a4583",
+  "head": "bf15c67e4a296c48207524af71b69cf9bc780aed",
+  "applied": [],
+  "unapplied": [
     "service",
     "cmakewarn",
     "danglewarn",
@@ -11,7 +12,6 @@
     "cxx26",
     "noevtgen-wip"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
