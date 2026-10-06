@@ -1,15 +1,15 @@
 {
   "version": 5,
-  "prev": "0408b28c8fff65f330c25b2fa3a33f54018b2eb4",
-  "head": "a9d50ad49bef787514f1809b70a23508743a84cc",
-  "applied": [
+  "prev": "77961bf5b9c8cd72dc33c9b58ecb2668e669a3f8",
+  "head": "643c603589408df920ba437bbb60fff85e54444c",
+  "applied": [],
+  "unapplied": [
     "service",
     "cmakewarn",
     "depr",
     "clang",
     "noevtgen-wip"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
