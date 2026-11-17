@@ -1,16 +1,15 @@
 {
   "version": 5,
-  "prev": "05d3a62b5d41226863068e2c91947b3eb03d9f53",
-  "head": "3f48e335c3f1f158842fa5cf41f009d5229ce78c",
+  "prev": "52c15b89d2a9b61b6fb53cb68c6e9180bbbba572",
+  "head": "218064866267e893fad3a1f573ee9db1edaf93cb",
   "applied": [
     "service",
     "cmakewarn",
     "depr",
-    "clang"
-  ],
-  "unapplied": [
+    "clang",
     "noevtgen-wip"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
@@ -23,7 +22,7 @@
       "oid": "019a5c8d7c044b70f09e54ef75a6b3a9f3f61ed5"
     },
     "noevtgen-wip": {
-      "oid": "03d535f0c1f4d86e9bccf3d01e9b72d91906ace0"
+      "oid": "218064866267e893fad3a1f573ee9db1edaf93cb"
     },
     "service": {
       "oid": "4e5e4a39cf8b4299da83357eba554e8741223e26"
